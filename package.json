@@ -1,0 +1,38 @@
+{
+  "name": "micooh-api",
+  "version": "1.0.0",
+  "description": "API Backend para servir datos a una pàgina web SPA",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diego-villarroel/micooh-api.git"
+  },
+  "keywords": [
+    "API",
+    "micooh",
+    "backend",
+    "banco",
+    "sangre"
+  ],
+  "author": "DV_Dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diego-villarroel/micooh-api/issues"
+  },
+  "homepage": "https://github.com/diego-villarroel/micooh-api#readme",
+  "dependencies": {
+    "axios": "^1.18.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.5.2",
+    "node-cache": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
